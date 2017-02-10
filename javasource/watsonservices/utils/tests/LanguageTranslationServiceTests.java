@@ -1,20 +1,13 @@
 package watsonservices.utils.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
-import com.ibm.watson.developer_cloud.conversation.v1_experimental.model.MessageRequest;
-import com.ibm.watson.developer_cloud.conversation.v1_experimental.model.MessageResponse;
 import com.ibm.watson.developer_cloud.language_translation.v2.LanguageTranslation;
 import com.ibm.watson.developer_cloud.language_translation.v2.model.IdentifiableLanguage;
-import com.mendix.core.Core;
-import com.mendix.systemwideinterfaces.MendixException;
-import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 public class LanguageTranslationServiceTests {
 
